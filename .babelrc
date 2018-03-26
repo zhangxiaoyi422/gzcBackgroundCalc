@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["ie > 8"]
+      },
+      "useBuiltIns": true,
+      "debug": false
+    }],
+    "stage-2"
+  ],
+  "plugins": ["transform-runtime"],
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2"],
+      "plugins": ["istanbul"]
+    }
+  }
+}

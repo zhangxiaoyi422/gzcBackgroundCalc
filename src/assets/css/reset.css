@@ -1,0 +1,26 @@
+html,body,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dd,ol,ul,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box}
+html,body {height: 100%;}
+body,button,input,select,textarea{font:14px / 1.5 "Microsoft YaHei","\5b8b\4f53",sans-serif;}
+h2,h3,h4,h5,h6{font-family:Microsoft YaHei,sans-serif}
+ul,ol{list-style:none}
+img{display:block;border:0}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{font-size:100%}
+textarea{resize:none}
+table{border-collapse:collapse;border-spacing:0}
+select:focus{outline: none;}
+input[type="radio"]{outline: none;cursor:pointer}
+input::-ms-clear{display:none;}
+input{vertical-align: middle}
+/*CSS input type="number"去掉上下箭头*/
+input[type=number]{-moz-appearance:textfield;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{-webkit-appearance: none; margin: 0;}
+a{outline:none;blr:expression(this.onFocus=this.blur());}
+a:focus{-moz-outline-style: none;}
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both}
+.clearfix:after{content:"\200B";display:block;height:0;clear:both}
+.clearfix{*zoom:1;}/*IE/7/6*/
+span{word-wrap:break-word; }
